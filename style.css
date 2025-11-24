@@ -79,6 +79,7 @@ section {
     cursor: pointer;
     display: inline-block;
 }
+
 .btn:hover {
     letter-spacing: 0.2rem;
 }
@@ -143,6 +144,7 @@ section {
     color: #fff;
 
 }
+
 .about .row .content p {
     font-size: 1.6rem;
     color: #fff;
@@ -155,6 +157,7 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
 }
+
 .menu .box-container .box {
     text-align: center;
     border: var(--border);
@@ -165,18 +168,21 @@ section {
 .menu .box-container .box img {
     height: 10rem;
 }
+
 .menu .box-container .box h3 {
     font-size: 2rem;
     color: #fff;
     padding: 1rem 0;
 }
+
 .menu .box-container .box .price {
     font-size: 2.5rem;
     color: #fff;
     padding: 0.5rem 0;
 }
+
 .menu .box-container .box .price span {
-    color: #737373 ;
+    color: #737373;
     text-decoration: line-through;
     font-size: 1.5rem;
     font-weight: lighter;
@@ -186,7 +192,7 @@ section {
     background-color: #fff;
 }
 
-.menu .box-container .box:hover>*{
+.menu .box-container .box:hover>* {
     color: var(--black);
 }
 
@@ -196,7 +202,8 @@ section {
     border: var(--border);
     color: #fff;
 }
-.review .box-container .box p{
+
+.review .box-container .box p {
     font-size: 1.5rem;
     color: #fff;
     padding: 2rem 0;
@@ -218,13 +225,13 @@ section {
 
 
 .address {
-   display: flex;
-   align-items: center;
-   flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .footer {
-  text-align: center;
+    text-align: center;
 }
 
 .footer .share img {
@@ -236,97 +243,4 @@ section {
 
 .footer .share img:hover {
     background-color: var(--main-color);
-}
-
-@media (max-width: 768px) {
-
-    .header section {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-    }
-
-    .navbar {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .navbar a {
-        font-size: 1.6rem;
-        margin: 0.5rem 0;
-    }
-
-    .home-container {
-        height: auto;
-        padding: 40px 20px;
-        text-align: center;
-    }
-
-    .home-container section {
-        min-height: auto;
-        padding: 40px 0;
-    }
-
-    .content h3 {
-        font-size: 3.2rem;
-        line-height: 1.2;
-    }
-
-    .content p {
-        font-size: 1.6rem;
-    }
-
-    .about .row {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    }
-
-    .about img {
-        width: 100%;
-        height: auto;
-    }
-
-    .about .row .content h3 {
-        font-size: 2.4rem;
-    }
-
-
-    .menu .box-container {
-        grid-template-columns: 1fr;
-    }
-
-    .menu .box-container .box {
-        padding: 2rem;
-    }
-
-    .menu .box-container .box img {
-        height: 8rem;
-    }
-
-    .review .box-container {
-        grid-template-columns: 1fr;
-    }
-
-    iframe {
-        width: 100% !important;
-        height: 300px !important;
-    }
-
-    .footer .share {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        padding-bottom: 20px;
-    }
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.navbar {
-    flex-wrap: wrap;
 }
